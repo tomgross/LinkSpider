@@ -1,0 +1,7 @@
+.idea
+*.py[co]
+/lib*
+pyvenv.cfg
+/bin
+/share
+*.egg-info
