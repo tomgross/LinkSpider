@@ -1,6 +1,6 @@
 ---
 applications:
-- guillotina_linkchecker
+- linkspider
 databases:
 - db:
     storage: postgresql

@@ -8,12 +8,13 @@ except IOError:
     README = None
 
 setup(
-    name='guillotina_linkchecker',
+    name='linkspider',
     version="1.0.0",
-    description='A linkchecker',
+    description='An asyncronous linkchecker written in Python 3',
     long_description=README,
     install_requires=[
-        'guillotina'
+        'guillotina',
+        'httpie'
     ],
     author='Tom Gross',
     author_email='itconsense@gmail.com',
